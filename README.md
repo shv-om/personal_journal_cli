@@ -6,7 +6,9 @@ and not on cloud. For simplicity consider you could enter only textual content i
 Terminologies
 User​ : An independent entity with access to its own journal. Data should not be shared between users.
 Journal​ : A text log containing multiple entries.
-Journal Entry​ : A piece for text accompanied by a timestamp Features required
+Journal Entry​ : A piece for text accompanied by a timestamp
+
+Features required
 
 1. User Management:​ On starting the application the user should be presented with either Login or Sign Up options. On Sign Up Do not ask for a password again
 2. Journal Management:​ After authentication, the user should be presented with two options to either list all his previous entries or create a new entry. Maximum 50 Journal entries should be allowed per user. Newer entry after 50 should replace the oldest entry(like a queue).
